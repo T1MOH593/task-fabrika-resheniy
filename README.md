@@ -1,6 +1,7 @@
 # task-fabrika-resheniy
 
-To set up service you should run method main in TaskFabrikaResheniyApplication.java
+To set up service you should set up PostgreSQL, write in application.properties url, password, username
+ and run method main in TaskFabrikaResheniyApplication.java
 
 To have a role ADMIN put username = vlad  password = vlad
 To have a role USER put username = elena  password = elena
