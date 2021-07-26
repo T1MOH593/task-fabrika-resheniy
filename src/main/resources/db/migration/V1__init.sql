@@ -32,5 +32,15 @@ CREATE TABLE IF NOT EXISTS answers (
     text VARCHAR (1000) NOT NULL
 );
 
+INSERT INTO users (username, password, enabled)
+        VALUES
+            ('vlad', '{noop}vlad', 1),
+            ('elena', '{noop}elena', 1);
+
+INSERT INTO authorities (username, authority)
+        VALUES
+            ('vlad', 'ROLE_ADMIN'),
+            ('elena', 'ROLE_USER');
+
 
 
